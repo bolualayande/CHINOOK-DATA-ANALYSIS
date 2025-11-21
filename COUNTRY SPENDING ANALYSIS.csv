@@ -1,0 +1,25 @@
+country,total_spend,amount_of_customers,avg_spend_per_customer
+USA,523.06,13, $40.00 
+Canada,303.96,8, $38.00 
+Brazil,190.1,5, $38.00 
+France,195.1,5, $39.00 
+Germany,156.48,4, $39.00 
+United Kingdom,112.86,3, $38.00 
+Portugal,77.24,2, $39.00 
+India,75.26,2, $38.00 
+Czech Republic,90.24,2, $45.00 
+Italy,37.62,1, $38.00 
+Netherlands,40.62,1, $41.00 
+Norway,39.62,1, $40.00 
+Poland,37.62,1, $38.00 
+Spain,37.62,1, $38.00 
+Sweden,38.62,1, $39.00 
+Hungary,45.62,1, $46.00 
+Australia,37.62,1, $38.00 
+Austria,42.62,1, $43.00 
+Belgium,37.62,1, $38.00 
+Chile,46.62,1, $47.00 
+Denmark,37.62,1, $38.00 
+Finland,41.62,1, $42.00 
+Argentina,37.62,1, $38.00 
+Ireland,45.62,1, $46.00 
