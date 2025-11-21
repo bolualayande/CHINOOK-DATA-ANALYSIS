@@ -62,7 +62,7 @@ GROUP BY media_type.name
 ORDER BY rev_by_media_type DESC;
 
 
-#REVENUE BY MONTHLY TREND 
+#REVENUE BY MONTHLY TREND IN 2013
 SELECT DATE_TRUNC ('month', invoice_date) :: date 
       AS monthly_trend,
         ROUND(SUM(invoice_line.unit_price * invoice_line.quantity),2) 
@@ -70,6 +70,7 @@ SELECT DATE_TRUNC ('month', invoice_date) :: date
 FROM invoice
 JOIN invoice_line
      ON invoice_line.invoice_id = invoice.invoice_id
+WHERE INVOICE_DATE >='2013-01-01' AND INVOICE_DATE < '2014-01-01'
 GROUP BY 1
 ORDER BY 1;
 
